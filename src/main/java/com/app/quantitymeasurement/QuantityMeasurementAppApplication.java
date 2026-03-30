@@ -9,9 +9,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 	
 @SpringBootApplication
-@OpenAPIDefinition(	
+@OpenAPIDefinition(
+		
+		
     info = @Info(	
         title = "Quantity Measurement API",
+        
+        
+        
         version = "1.0.0",
         description = "REST API for performing quantity measurements including " +
                       "compare, convert, add, subtract, multiply and divide " +
